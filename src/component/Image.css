@@ -20,3 +20,20 @@
     width: 200px;
     height: 200px;
 }
+.pagination{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+}
+.pagination a{
+    padding:10px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.pagination_link{
+color: black;
+}
+.pagination_link:hover{
+    color: black;
+}
